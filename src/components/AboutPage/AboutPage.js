@@ -18,6 +18,8 @@ class FileUpload extends Component {
         'Content-Type': 'multipart/form-data'
       }
     }).then(response => {
+      console.log('response:', response.data.Location);
+
       // handle your response;
     }).catch(error => {
       // handle your error

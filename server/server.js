@@ -6,6 +6,7 @@ const fileType = require('file-type');
 const bluebird = require('bluebird');
 const multiparty = require('multiparty');
 
+
 // configure the keys for accessing AWS
 AWS.config.update({
   accessKeyId: SECRET,
